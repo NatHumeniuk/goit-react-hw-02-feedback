@@ -1,0 +1,19 @@
+.statisticsWrapper {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2f3331;
+  margin: 0 0 20px 0;
+}
+.content {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2f3331;
+  margin: 0;
+}
+.content:not(:last-child) {
+  margin-bottom: 20px;
+}
