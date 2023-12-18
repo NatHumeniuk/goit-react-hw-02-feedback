@@ -1,10 +1,10 @@
 import React from 'react';
 import css from '../Notification/Notification.module.css';
 
-export const Notification = () => {
+export const Notification = ({ message }) => {
   return (
     <>
-      <p className={css.notification}> No feedback given &#128533;</p>
+      <p className={css.notification}> {message}</p>
     </>
   );
 };
